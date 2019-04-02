@@ -1,0 +1,18 @@
+<div class = "wrapper">
+<mat-card class="mat-card">
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Username" [(ngModel)]="user.username" name="username">
+        </mat-form-field>
+      </form>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button (click)="setUsername()">Chat</button>
+    </mat-card-actions>
+</mat-card>
+
+</div>
