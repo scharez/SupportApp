@@ -8,9 +8,6 @@ export class WsService {
 
   constructor() {}
 
-  ws: WebSocket;
+  websocket: WebSocket = new WebSocket('ws://localhost:8025/websockets/chat');
 
-  public connect(url) {
-    this.ws = new WebSocket(url);
-  }
 }

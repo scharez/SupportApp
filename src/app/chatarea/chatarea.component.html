@@ -1,3 +1,20 @@
-<p>
-  chatarea works!
-</p>
+<mat-toolbar>SupportApp</mat-toolbar>
+
+<mat-card class="mat-card">
+  <mat-card-header>
+    <mat-card-title>Chat</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="message-receiving">
+    <div class="chatarea">
+      {{chat}}
+    </div>
+    </form>
+    <form class="message-sending">
+    <mat-form-field class="full-width">
+      <textarea matInput placeholder="Message" [(ngModel)]="message" name="message"></textarea>
+    </mat-form-field>
+      <button class="message-sending-button"mat-raised-button (click)="sendMessage()" name="Send">Send</button>
+    </form>
+  </mat-card-content>
+</mat-card>

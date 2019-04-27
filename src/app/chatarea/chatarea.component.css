@@ -1,0 +1,42 @@
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mat-card {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+.message-sending {
+  width: 100%;
+}
+
+.full-width {
+  width: 580px;
+}
+
+.message-sending-button {
+  margin-left: 20px;
+}
+
+
+.message-receiving {
+
+}
+
+.message-receiver {
+  text-align: left;
+}
+
+.message-sender {
+  text-align: right;
+}
+
+.chat {
+  font-size: 18px;
+}
